@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "c2058132-45fa-4697-894d-fdafcb95f0a1",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "beautiful-wife": {
+      "ver": "1.0.4",
+      "uuid": "7b3a67d7-15f4-4a3e-b500-587c9c04f11a",
+      "rawTextureUuid": "c2058132-45fa-4697-894d-fdafcb95f0a1",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": 0.5,
+      "trimX": 1,
+      "trimY": 1,
+      "width": 284,
+      "height": 42,
+      "rawWidth": 287,
+      "rawHeight": 45,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

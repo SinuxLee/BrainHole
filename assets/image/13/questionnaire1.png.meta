@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "436d61d5-9674-4962-bd0e-8b3bec1a8910",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "questionnaire1": {
+      "ver": "1.0.4",
+      "uuid": "7758446a-fe3e-4662-983a-397bcbf1ed87",
+      "rawTextureUuid": "436d61d5-9674-4962-bd0e-8b3bec1a8910",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 1,
+      "offsetY": 0.5,
+      "trimX": 2,
+      "trimY": 1,
+      "width": 228,
+      "height": 352,
+      "rawWidth": 230,
+      "rawHeight": 355,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

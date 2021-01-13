@@ -1,0 +1,63 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "level57",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.5833333333333334,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "keyicon": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -346,
+                619
+              ]
+            },
+            {
+              "frame": 0.5,
+              "value": [
+                -134,
+                -6
+              ]
+            }
+          ]
+        }
+      },
+      "safe2": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            },
+            {
+              "frame": 0.5833333333333334,
+              "value": true
+            }
+          ]
+        }
+      },
+      "NumInput/frame/value": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            },
+            {
+              "frame": 0.5833333333333334,
+              "value": false
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "0299b472-dd8a-4f41-b516-a643fab0eeb4",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "boy-basketball-1": {
+      "ver": "1.0.4",
+      "uuid": "5501720c-4f32-4682-821e-4b1011a5055b",
+      "rawTextureUuid": "0299b472-dd8a-4f41-b516-a643fab0eeb4",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": 0,
+      "trimX": 1,
+      "trimY": 1,
+      "width": 132,
+      "height": 298,
+      "rawWidth": 135,
+      "rawHeight": 300,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

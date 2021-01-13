@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "d78065bf-9daa-4535-a838-22714f26e35e",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "Aquyanseshen": {
+      "ver": "1.0.4",
+      "uuid": "ff3c7f37-bd81-4a1f-99d6-5f45916ac8a0",
+      "rawTextureUuid": "d78065bf-9daa-4535-a838-22714f26e35e",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 1,
+      "width": 189,
+      "height": 41,
+      "rawWidth": 193,
+      "rawHeight": 43,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

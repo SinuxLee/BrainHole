@@ -1,0 +1,35 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "level88_b",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.5,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "car1": {
+        "props": {
+          "x": [
+            {
+              "frame": 0,
+              "value": -243,
+              "curve": [
+                0.6475535168195719,
+                0.11978593272171256,
+                0.45,
+                0.95
+              ]
+            },
+            {
+              "frame": 1.5,
+              "value": 253
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

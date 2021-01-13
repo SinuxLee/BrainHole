@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "6ca1f575-e158-4124-afc2-c1eed81fbf96",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "game-challenge": {
+      "ver": "1.0.4",
+      "uuid": "4f8822f2-ec06-438a-9966-5c60d931feb1",
+      "rawTextureUuid": "6ca1f575-e158-4124-afc2-c1eed81fbf96",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -1,
+      "offsetY": 0.5,
+      "trimX": 0,
+      "trimY": 1,
+      "width": 204,
+      "height": 42,
+      "rawWidth": 206,
+      "rawHeight": 45,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

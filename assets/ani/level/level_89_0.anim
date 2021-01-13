@@ -1,0 +1,35 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "level_89_0",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.5,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "circle0": {
+        "props": {
+          "rotation": [
+            {
+              "frame": 0,
+              "value": 0,
+              "curve": [
+                0.6975535168195719,
+                -0.03639143730886851,
+                0.31391437308868503,
+                1.0363914373088685
+              ]
+            },
+            {
+              "frame": 1.5,
+              "value": 3600
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

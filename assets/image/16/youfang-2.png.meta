@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "c51d640a-e980-49d1-817b-96a2301bd594",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "youfang-2": {
+      "ver": "1.0.4",
+      "uuid": "6789cdc4-6d12-49b9-9b66-5a9eb0fab4ee",
+      "rawTextureUuid": "c51d640a-e980-49d1-817b-96a2301bd594",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -0.5,
+      "trimX": 1,
+      "trimY": 1,
+      "width": 102,
+      "height": 42,
+      "rawWidth": 104,
+      "rawHeight": 43,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

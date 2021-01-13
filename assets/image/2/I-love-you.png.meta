@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "bbbad1c4-13ca-45bc-9ffe-22645aa5aed8",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "I-love-you": {
+      "ver": "1.0.4",
+      "uuid": "bff057ac-39e3-433d-a9b7-a4e2a7f7a682",
+      "rawTextureUuid": "bbbad1c4-13ca-45bc-9ffe-22645aa5aed8",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0.5,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 510,
+      "height": 93,
+      "rawWidth": 510,
+      "rawHeight": 94,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "c3f38ac2-19e7-4206-87cd-806d6441971f",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "blue-stone": {
+      "ver": "1.0.4",
+      "uuid": "27cb360f-3e14-4ac1-a741-53d1af8c02c6",
+      "rawTextureUuid": "c3f38ac2-19e7-4206-87cd-806d6441971f",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 1,
+      "trimY": 2,
+      "width": 146,
+      "height": 162,
+      "rawWidth": 148,
+      "rawHeight": 166,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "assets-sort-type": "name",
+  "collision-matrix": [
+    [
+      true
+    ]
+  ],
+  "design-resolution-height": 720,
+  "design-resolution-width": 1280,
+  "excluded-modules": [
+    "LabelOutline",
+    "ParticleSystem",
+    "TiledMap",
+    "Spine Skeleton",
+    "VideoPlayer",
+    "DragonBones",
+    "Physics",
+    "StudioComponent",
+    "Chipmunk",
+    "Camera"
+  ],
+  "facebook": {
+    "appID": "",
+    "audience": {
+      "enable": false
+    },
+    "enable": false,
+    "live": {
+      "enable": false
+    }
+  },
+  "fit-height": false,
+  "fit-width": false,
+  "group-list": [
+    "default"
+  ],
+  "last-module-event-record-time": 1581650689616,
+  "simulator-orientation": false,
+  "simulator-resolution": {
+    "height": 768,
+    "width": 1024
+  },
+  "start-scene": "current",
+  "use-customize-simulator": true,
+  "use-project-simulator-setting": true
+}

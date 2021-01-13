@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "eb295930-2aee-4b1f-8c0e-c5bf33233b0c",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "desk-lamp": {
+      "ver": "1.0.4",
+      "uuid": "f27f60c2-85cc-4bc5-bfde-8170d540b5ce",
+      "rawTextureUuid": "eb295930-2aee-4b1f-8c0e-c5bf33233b0c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0.5,
+      "offsetY": 0,
+      "trimX": 1,
+      "trimY": 0,
+      "width": 286,
+      "height": 432,
+      "rawWidth": 287,
+      "rawHeight": 432,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

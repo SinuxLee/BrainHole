@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "4a134e4c-0e3f-41a0-bf54-7da97fe83285",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "digua": {
+      "ver": "1.0.4",
+      "uuid": "c58c885c-f32a-4883-86f8-7fe98274eefa",
+      "rawTextureUuid": "4a134e4c-0e3f-41a0-bf54-7da97fe83285",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -1,
+      "trimX": 1,
+      "trimY": 2,
+      "width": 86,
+      "height": 47,
+      "rawWidth": 88,
+      "rawHeight": 49,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "f381bf0c-dbff-45e4-9605-19128b56088f",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "mom-wife-2": {
+      "ver": "1.0.4",
+      "uuid": "0da4a388-e14e-4535-b310-3f7958bf70a4",
+      "rawTextureUuid": "f381bf0c-dbff-45e4-9605-19128b56088f",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 1,
+      "offsetY": -0.5,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 697,
+      "height": 484,
+      "rawWidth": 699,
+      "rawHeight": 487,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

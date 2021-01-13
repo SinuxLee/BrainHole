@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "d22aaf93-b374-453a-b05e-d66ba5828673",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "microwave-oven": {
+      "ver": "1.0.4",
+      "uuid": "656422e0-d1b8-4739-8ea8-9bda7c1129b1",
+      "rawTextureUuid": "d22aaf93-b374-453a-b05e-d66ba5828673",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 1.5,
+      "offsetY": -0.5,
+      "trimX": 5,
+      "trimY": 2,
+      "width": 105,
+      "height": 63,
+      "rawWidth": 112,
+      "rawHeight": 66,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
