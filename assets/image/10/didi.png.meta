@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "ed8e7f93-6e52-44d7-b41d-7a99b05ff5ad",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 84,
+  "height": 48,
+  "platformSettings": {},
   "subMetas": {
     "didi": {
       "ver": "1.0.4",

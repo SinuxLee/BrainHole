@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "d081dd85-f7d0-4ac9-988f-2c0ad9f837af",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 87,
+  "height": 47,
+  "platformSettings": {},
   "subMetas": {
     "kongbai": {
       "ver": "1.0.4",

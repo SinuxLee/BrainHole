@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "30ad822b-4ea2-4266-b36f-c597953a121b",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 123,
+  "height": 77,
+  "platformSettings": {},
   "subMetas": {
     "buliaoxiayiguan": {
       "ver": "1.0.4",

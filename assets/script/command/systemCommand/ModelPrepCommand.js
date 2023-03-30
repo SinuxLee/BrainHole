@@ -1,13 +1,13 @@
-var UserProxy = require("UserProxy");
+const UserProxy = require('UserProxy')
 
 cc.Class({
-    extends: puremvc.SimpleCommand,
+  extends: puremvc.SimpleCommand,
 
-    properties: {
-        
-    },
+  properties: {
 
-    execute(notification){
-        this.facade.registerProxy(new UserProxy(UserProxy.NAME));
-    }
-});
+  },
+
+  execute (notification) {
+    this.facade.registerProxy(new UserProxy(UserProxy.NAME))
+  }
+})

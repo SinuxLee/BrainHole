@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "060b24fa-3715-481c-b567-04751d93977e",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 290,
+  "height": 47,
+  "platformSettings": {},
   "subMetas": {
     "higher-brain-power": {
       "ver": "1.0.4",

@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "d37bcbce-2152-4dde-987c-bbe8171ab0c7",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 206,
+  "height": 43,
+  "platformSettings": {},
   "subMetas": {
     "dangrqanhenbanga": {
       "ver": "1.0.4",

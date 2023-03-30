@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "405105c1-fae9-4008-928c-1cc66c002785",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 164,
+  "height": 191,
+  "platformSettings": {},
   "subMetas": {
     "goose-2": {
       "ver": "1.0.4",

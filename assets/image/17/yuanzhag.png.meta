@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "f5527fb2-1f31-4fee-ab4c-7614a55de6ba",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 86,
+  "height": 46,
+  "platformSettings": {},
   "subMetas": {
     "yuanzhag": {
       "ver": "1.0.4",

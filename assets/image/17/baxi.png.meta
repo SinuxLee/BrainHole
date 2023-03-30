@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "17c4d4a2-a254-477b-b8dc-980081c7320b",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 84,
+  "height": 44,
+  "platformSettings": {},
   "subMetas": {
     "baxi": {
       "ver": "1.0.4",

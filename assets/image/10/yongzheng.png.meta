@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "14fb6555-41d9-4683-97fe-86fd664f3dcf",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 87,
+  "height": 45,
+  "platformSettings": {},
   "subMetas": {
     "yongzheng": {
       "ver": "1.0.4",

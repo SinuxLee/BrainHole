@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "13ce5fc0-881c-401e-bff6-a8668da83163",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 35,
+  "height": 136,
+  "platformSettings": {},
   "subMetas": {
     "yishangquancuo-1": {
       "ver": "1.0.4",

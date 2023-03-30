@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "d046ce6b-54a1-4759-bee9-8a6e861af618",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 308,
+  "height": 60,
+  "platformSettings": {},
   "subMetas": {
     "dianjishuru": {
       "ver": "1.0.4",

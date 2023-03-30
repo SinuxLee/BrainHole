@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "366a2df6-228b-44e5-8e2f-476b5923be2c",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 386,
+  "height": 177,
+  "platformSettings": {},
   "subMetas": {
     "bat": {
       "ver": "1.0.4",

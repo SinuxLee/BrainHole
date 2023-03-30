@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "02e0b603-94cb-4f2e-bdbe-7fe83f5774f5",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 302,
+  "height": 198,
+  "platformSettings": {},
   "subMetas": {
     "mosquitoe": {
       "ver": "1.0.4",

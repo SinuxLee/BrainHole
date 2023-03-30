@@ -1,41 +1,35 @@
 
-
 /**
  * 扩展引擎一些方法  按钮屏蔽多点
  */
 
-
-
-cc.NodePool.prototype.getByAttr = function (key,value,...p) {
-    let last = this._pool.length-1;
-    if (last < 0) {
-        return null;
-    }
-    else {
-        for(let i = 0;i<this._pool.length;i++){
-            let obj = this._pool[i];
-            if(obj[key||"name"] == value){
-
-                this._pool.splice(i,1);
-                // Invoke pool handler
-                let handler = this.poolHandlerComp ? obj.getComponent(this.poolHandlerComp) : null;
-                if (handler && handler.reuse) {
-                    handler.reuse.apply(handler, ...p);
-                }
-                return obj;
-            }
+cc.NodePool.prototype.getByAttr = function (key, value, ...p) {
+  const last = this._pool.length - 1
+  if (last < 0) {
+    return null
+  } else {
+    for (let i = 0; i < this._pool.length; i++) {
+      const obj = this._pool[i]
+      if (obj[key || 'name'] == value) {
+        this._pool.splice(i, 1)
+        // Invoke pool handler
+        const handler = this.poolHandlerComp ? obj.getComponent(this.poolHandlerComp) : null
+        if (handler && handler.reuse) {
+          handler.reuse.apply(handler, ...p)
         }
-        return null;
+        return obj
+      }
     }
-};
+    return null
+  }
+}
 
 cc.Toggle.prototype._updateCheckMark = function () {
-    if (this.checkMark) {
-        this.checkMark.node.active = !!this.isChecked;
-    }
-    this.node.emit('updateCheckMark', this);
-};
-
+  if (this.checkMark) {
+    this.checkMark.node.active = !!this.isChecked
+  }
+  this.node.emit('updateCheckMark', this)
+}
 
 // let touchId = null;
 // let timeoutId = null;
@@ -91,15 +85,14 @@ cc.Toggle.prototype._updateCheckMark = function () {
 //     this._pressed = false;
 //     this._updateState();
 // };
-var canClick = true;
-cc.Button.prototype._onTouchBegan  =  function(event) {
-    if (!this.interactable || !this.enabledInHierarchy)
-        return;
-    this._pressed = true;
-    this._updateState();
-    event.stopPropagation();
+let canClick = true
+cc.Button.prototype._onTouchBegan = function (event) {
+  if (!this.interactable || !this.enabledInHierarchy) { return }
+  this._pressed = true
+  this._updateState()
+  event.stopPropagation()
 },
-    //
+//
 // cc.Button.prototype._onTouchMove = function(event) {
 //     if (!this.interactable || !this.enabledInHierarchy || !this._pressed)
 //         return;
@@ -130,32 +123,28 @@ cc.Button.prototype._onTouchBegan  =  function(event) {
 //     }
 //     event.stopPropagation();
 // },
-cc.Button.prototype._onTouchEnded = function(event) {
-    if (!this.interactable || !this.enabledInHierarchy)
-        return;
-    if (this._pressed) {
-        cc.Component.EventHandler.emitEvents(this.clickEvents, event);
-        console.log("********************emit");
-        if(canClick == true) {
-            this.node.emit('click', this);
-            canClick = false;
-            setTimeout(function(){
-                canClick = true;
-            }.bind(this), 300)
-        }
-        else {
-            console.log("cannot click")
-        }
+cc.Button.prototype._onTouchEnded = function (event) {
+  if (!this.interactable || !this.enabledInHierarchy) { return }
+  if (this._pressed) {
+    cc.Component.EventHandler.emitEvents(this.clickEvents, event)
+    console.log('********************emit')
+    if (canClick == true) {
+      this.node.emit('click', this)
+      canClick = false
+      setTimeout(function () {
+        canClick = true
+      }, 300)
+    } else {
+      console.log('cannot click')
     }
-    this._pressed = false;
-    this._updateState();
-    event.stopPropagation();
-};
-
-cc.Button.prototype._onTouchCancel = function() {
-    if (!this.interactable || !this.enabledInHierarchy)
-        return;
-    this._pressed = false;
-    this._updateState();
+  }
+  this._pressed = false
+  this._updateState()
+  event.stopPropagation()
 }
 
+cc.Button.prototype._onTouchCancel = function () {
+  if (!this.interactable || !this.enabledInHierarchy) { return }
+  this._pressed = false
+  this._updateState()
+}

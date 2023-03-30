@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "7d630019-cb74-4d69-bfd7-fa0435313b34",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 205,
+  "height": 42,
+  "platformSettings": {},
   "subMetas": {
     "nizuihaodeta-2": {
       "ver": "1.0.4",

@@ -1,32 +1,32 @@
 cc.Class({
-    extends: puremvc.Proxy,
+  extends: puremvc.Proxy,
 
-    properties:{
-    
-    },
-    statics:{
-        NAME:"BaseProxy"
-    },
+  properties: {
 
-    onRegister(){
-       
-    },
+  },
+  statics: {
+    NAME: 'BaseProxy'
+  },
 
-    onRemove(){
-        
-    },
+  onRegister () {
 
-    //注册网络监听回调
-    bindRegister(msgId, pbmessage, callback){
-        require("NetSocketMgr").instance().bindMsg(msgId, pbmessage, callback);
-    },
+  },
 
-    sendPack(msgId, body){
-        require("NetSocketMgr").instance().sendMsg(msgId, body);
-    },
+  onRemove () {
 
-    checkError(errInfo){
+  },
 
-    },
+  // 注册网络监听回调
+  bindRegister (msgId, pbmessage, callback) {
+    require('NetSocketMgr').instance().bindMsg(msgId, pbmessage, callback)
+  },
 
-});
+  sendPack (msgId, body) {
+    require('NetSocketMgr').instance().sendMsg(msgId, body)
+  },
+
+  checkError (errInfo) {
+
+  }
+
+})

@@ -5,16 +5,16 @@ cc.Class({
     canvas: cc.Canvas
   },
 
-  onLoad: function() {
-    let canvas = this.canvas || this.getComponent(cc.Canvas);
-    let designResolution = canvas.designResolution;
-    let viewSize = cc.view.getFrameSize();
-    let xScale = viewSize.width / designResolution.width;
-    let yScale = viewSize.height / designResolution.height;
+  onLoad: function () {
+    const canvas = this.canvas || this.getComponent(cc.Canvas)
+    const designResolution = canvas.designResolution
+    const viewSize = cc.view.getFrameSize()
+    const xScale = viewSize.width / designResolution.width
+    const yScale = viewSize.height / designResolution.height
     if (xScale >= yScale) {
-      canvas.fitHeight = true;
+      canvas.fitHeight = true
     } else {
-      canvas.fitWidth = true;
+      canvas.fitWidth = true
     }
   }
-});
+})

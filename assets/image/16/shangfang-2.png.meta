@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "6e6ca9c8-35c4-4326-9ff5-dfb9eac89c6a",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 103,
+  "height": 42,
+  "platformSettings": {},
   "subMetas": {
     "shangfang-2": {
       "ver": "1.0.4",

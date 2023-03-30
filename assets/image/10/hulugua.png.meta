@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "e2e5ca0c-5385-4b95-96c2-d9afc0451725",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 131,
+  "height": 48,
+  "platformSettings": {},
   "subMetas": {
     "hulugua": {
       "ver": "1.0.4",

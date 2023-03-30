@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "f6f3d30c-6ea1-4d13-97b9-2ce77dc77a0e",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 132,
+  "height": 48,
+  "platformSettings": {},
   "subMetas": {
     "guojiade": {
       "ver": "1.0.4",

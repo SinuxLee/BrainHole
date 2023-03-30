@@ -1,32 +1,32 @@
-var BaseProxy = require("BaseProxy");
+const BaseProxy = require('BaseProxy')
 
 cc.Class({
-    extends: BaseProxy,
+  extends: BaseProxy,
 
-    properties:{
+  properties: {
 
-    },
-    statics:{
-        NAME:"USERPROXY"
-    },
+  },
+  statics: {
+    NAME: 'USERPROXY'
+  },
 
-    onRegister(){
-        
-    },
+  onRegister () {
 
-    setKeyValue(key, value){
-        cc.sys.localStorage.setItem(key, value);
-    },
+  },
 
-    getValueByKey(key){
-       return cc.sys.localStorage.getItem(key);
-    },
+  setKeyValue (key, value) {
+    cc.sys.localStorage.setItem(key, value)
+  },
 
-    removeKeyValue(key){
-        cc.sys.localStorage.removeItem(key);
-    },
+  getValueByKey (key) {
+    return cc.sys.localStorage.getItem(key)
+  },
 
-    onRemove(){
-        
-    },
-});
+  removeKeyValue (key) {
+    cc.sys.localStorage.removeItem(key)
+  },
+
+  onRemove () {
+
+  }
+})

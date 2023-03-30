@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "1ae48178-0f52-4034-95c4-125010f07841",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 714,
+  "height": 714,
+  "platformSettings": {},
   "subMetas": {
     "zhuanpan": {
       "ver": "1.0.4",

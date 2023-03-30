@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "66338d53-ad5a-4dd3-b0ac-5f02c127c871",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 68,
+  "height": 40,
+  "platformSettings": {},
   "subMetas": {
     "yellow-button": {
       "ver": "1.0.4",

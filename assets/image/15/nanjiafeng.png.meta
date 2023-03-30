@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "08a143eb-998f-4e53-b7f5-8a4a56141392",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 132,
+  "height": 49,
+  "platformSettings": {},
   "subMetas": {
     "nanjiafeng": {
       "ver": "1.0.4",

@@ -17,7 +17,13 @@
     "Physics",
     "StudioComponent",
     "Chipmunk",
-    "Camera"
+    "Camera",
+    "Geom Utils",
+    "3D",
+    "3D Primitive",
+    "3D Physics/cannon.js",
+    "3D Physics/Builtin",
+    "3D Particle"
   ],
   "facebook": {
     "appID": "",
@@ -29,7 +35,7 @@
       "enable": false
     }
   },
-  "fit-height": false,
+  "fit-height": true,
   "fit-width": false,
   "group-list": [
     "default"
@@ -42,5 +48,8 @@
   },
   "start-scene": "current",
   "use-customize-simulator": true,
-  "use-project-simulator-setting": true
+  "use-project-simulator-setting": true,
+  "migrate-history": [
+    "cloud-function"
+  ]
 }

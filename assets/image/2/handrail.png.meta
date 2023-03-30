@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "242f7451-32d5-4e3f-a377-e480387a93af",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 153,
+  "height": 95,
+  "platformSettings": {},
   "subMetas": {
     "handrail": {
       "ver": "1.0.4",

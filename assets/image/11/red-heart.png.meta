@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "f5790c1a-38de-45a0-b4f9-82b13cddf8ef",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 137,
+  "height": 120,
+  "platformSettings": {},
   "subMetas": {
     "red-heart": {
       "ver": "1.0.4",

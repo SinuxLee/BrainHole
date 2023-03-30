@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "af8bc7f4-f37c-45d3-82a5-314967ba8690",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 148,
+  "height": 165,
+  "platformSettings": {},
   "subMetas": {
     "red-stone": {
       "ver": "1.0.4",

@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "6ca1f575-e158-4124-afc2-c1eed81fbf96",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 206,
+  "height": 45,
+  "platformSettings": {},
   "subMetas": {
     "game-challenge": {
       "ver": "1.0.4",

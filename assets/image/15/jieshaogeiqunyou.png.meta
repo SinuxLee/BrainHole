@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "9e1a75b6-5ea9-4cad-b487-0de972c8e3c5",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 206,
+  "height": 44,
+  "platformSettings": {},
   "subMetas": {
     "jieshaogeiqunyou": {
       "ver": "1.0.4",

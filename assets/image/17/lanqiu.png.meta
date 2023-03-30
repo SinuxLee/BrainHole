@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "748a5f1f-33c9-4caf-b8e7-30835527b844",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 90,
+  "height": 46,
+  "platformSettings": {},
   "subMetas": {
     "lanqiu": {
       "ver": "1.0.4",

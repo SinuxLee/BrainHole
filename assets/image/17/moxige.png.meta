@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "d071b9b4-3e65-4012-a0e3-d1f6e8ef728f",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 130,
+  "height": 47,
+  "platformSettings": {},
   "subMetas": {
     "moxige": {
       "ver": "1.0.4",

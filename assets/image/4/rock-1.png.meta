@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "c3799995-76a9-47a4-b7d4-71503bc5f6a3",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 159,
+  "height": 162,
+  "platformSettings": {},
   "subMetas": {
     "rock-1": {
       "ver": "1.0.4",

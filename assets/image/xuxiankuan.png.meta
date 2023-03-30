@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "ed53025e-24e1-4958-82d0-ae31fb8538ff",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 526,
+  "height": 336,
+  "platformSettings": {},
   "subMetas": {
     "xuxiankuan": {
       "ver": "1.0.4",

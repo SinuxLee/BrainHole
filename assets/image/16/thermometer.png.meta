@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "060a5133-b449-4598-8e97-3cd620f454e4",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 79,
+  "height": 15,
+  "platformSettings": {},
   "subMetas": {
     "thermometer": {
       "ver": "1.0.4",

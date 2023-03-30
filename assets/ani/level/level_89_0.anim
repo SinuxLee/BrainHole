@@ -11,7 +11,7 @@
     "paths": {
       "circle0": {
         "props": {
-          "rotation": [
+          "angle": [
             {
               "frame": 0,
               "value": 0,
@@ -24,7 +24,7 @@
             },
             {
               "frame": 1.5,
-              "value": 3600
+              "value": -3600
             }
           ]
         }

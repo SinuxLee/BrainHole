@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "87ab6b69-f177-4601-98b7-746a581f0429",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 34,
+  "height": 98,
+  "platformSettings": {},
   "subMetas": {
     "zuofang-1": {
       "ver": "1.0.4",

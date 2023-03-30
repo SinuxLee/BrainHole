@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "d22aaf93-b374-453a-b05e-d66ba5828673",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 112,
+  "height": 66,
+  "platformSettings": {},
   "subMetas": {
     "microwave-oven": {
       "ver": "1.0.4",

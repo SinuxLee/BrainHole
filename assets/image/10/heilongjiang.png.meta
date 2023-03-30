@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "0572bf1b-15f4-493e-9a41-4a585f603a36",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 132,
+  "height": 48,
+  "platformSettings": {},
   "subMetas": {
     "heilongjiang": {
       "ver": "1.0.4",

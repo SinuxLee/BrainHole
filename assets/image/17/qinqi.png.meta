@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "55518572-2c33-427e-ab62-69f771622afb",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 86,
+  "height": 47,
+  "platformSettings": {},
   "subMetas": {
     "qinqi": {
       "ver": "1.0.4",

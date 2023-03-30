@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "84d62630-4ca1-40f6-88d9-49e0c4587405",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 132,
+  "height": 48,
+  "platformSettings": {},
   "subMetas": {
     "wenpengyou": {
       "ver": "1.0.4",

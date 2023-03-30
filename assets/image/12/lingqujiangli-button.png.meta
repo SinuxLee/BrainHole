@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "43f32158-b128-4c6e-a4d4-b7c25d9fe1bf",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 224,
+  "height": 60,
+  "platformSettings": {},
   "subMetas": {
     "lingqujiangli-button": {
       "ver": "1.0.4",

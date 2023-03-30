@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "5f9c9de8-9689-4469-b902-2e5a44a8c85a",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 381,
+  "height": 447,
+  "platformSettings": {},
   "subMetas": {
     "electric-cooker": {
       "ver": "1.0.4",

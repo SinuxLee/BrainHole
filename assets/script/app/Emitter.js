@@ -3,16 +3,15 @@
  * Expose `Emitter`.
  */
 
-window.Emitter = Emitter;
+window.Emitter = Emitter
 
 /**
  * Initialize a new `Emitter`.
  *
  * @api public
  */
-function Emitter(obj) {
-    if (obj)
-        return mixin(obj);
+function Emitter (obj) {
+  if (obj) { return mixin(obj) }
 }
 /**
  * Mixin the emitter properties.
@@ -21,11 +20,11 @@ function Emitter(obj) {
  * @return {Object}
  * @api private
  */
-function mixin(obj) {
-    for (var key in Emitter.prototype) {
-        obj[key] = Emitter.prototype[key];
-    }
-    return obj;
+function mixin (obj) {
+  for (const key in Emitter.prototype) {
+    obj[key] = Emitter.prototype[key]
+  }
+  return obj
 }
 /**
  * Listen on the given `event` with `fn`.
@@ -37,11 +36,11 @@ function mixin(obj) {
  */
 Emitter.prototype.on =
     Emitter.prototype.addEventListener = function (event, fn) {
-        this._callbacks = this._callbacks || {};
-        (this._callbacks['$' + event] = this._callbacks['$' + event] || [])
-            .push(fn);
-        return this;
-    };
+      this._callbacks = this._callbacks || {};
+      (this._callbacks['$' + event] = this._callbacks['$' + event] || [])
+        .push(fn)
+      return this
+    }
 /**
  * Adds an `event` listener that will be invoked a single
  * time then automatically removed.
@@ -52,14 +51,14 @@ Emitter.prototype.on =
  * @api public
  */
 Emitter.prototype.once = function (event, fn) {
-    function on() {
-        this.off(event, on);
-        fn.apply(this, arguments);
-    }
-    on.fn = fn;
-    this.on(event, on);
-    return this;
-};
+  function on () {
+    this.off(event, on)
+    fn.apply(this, arguments)
+  }
+  on.fn = fn
+  this.on(event, on)
+  return this
+}
 /**
  * Remove the given callback for `event` or all
  * registered callbacks.
@@ -73,37 +72,36 @@ Emitter.prototype.off =
     Emitter.prototype.removeListener =
         Emitter.prototype.removeAllListeners =
             Emitter.prototype.removeEventListener = function (event, fn) {
-                this._callbacks = this._callbacks || {};
-                // all
-                if (0 == arguments.length) {
-                    this._callbacks = {};
-                    return this;
+              this._callbacks = this._callbacks || {}
+              // all
+              if (arguments.length == 0) {
+                this._callbacks = {}
+                return this
+              }
+              // specific event
+              const callbacks = this._callbacks['$' + event]
+              if (!callbacks) { return this }
+              // remove all handlers
+              if (arguments.length == 1) {
+                delete this._callbacks['$' + event]
+                return this
+              }
+              // remove specific handler
+              let cb
+              for (let i = 0; i < callbacks.length; i++) {
+                cb = callbacks[i]
+                if (cb === fn || cb.fn === fn) {
+                  callbacks.splice(i, 1)
+                  break
                 }
-                // specific event
-                var callbacks = this._callbacks['$' + event];
-                if (!callbacks)
-                    return this;
-                // remove all handlers
-                if (1 == arguments.length) {
-                    delete this._callbacks['$' + event];
-                    return this;
-                }
-                // remove specific handler
-                var cb;
-                for (var i = 0; i < callbacks.length; i++) {
-                    cb = callbacks[i];
-                    if (cb === fn || cb.fn === fn) {
-                        callbacks.splice(i, 1);
-                        break;
-                    }
-                }
-                // Remove event specific arrays for event types that no
-                // one is subscribed for to avoid memory leak.
-                if (callbacks.length === 0) {
-                    delete this._callbacks['$' + event];
-                }
-                return this;
-            };
+              }
+              // Remove event specific arrays for event types that no
+              // one is subscribed for to avoid memory leak.
+              if (callbacks.length === 0) {
+                delete this._callbacks['$' + event]
+              }
+              return this
+            }
 /**
  * Emit `event` with the given args.
  *
@@ -112,16 +110,16 @@ Emitter.prototype.off =
  * @return {Emitter}
  */
 Emitter.prototype.emit = function (event) {
-    this._callbacks = this._callbacks || {};
-    var args = [].slice.call(arguments, 1), callbacks = this._callbacks['$' + event];
-    if (callbacks) {
-        callbacks = callbacks.slice(0);
-        for (var i = 0, len = callbacks.length; i < len; ++i) {
-            callbacks[i].apply(this, args);
-        }
+  this._callbacks = this._callbacks || {}
+  const args = [].slice.call(arguments, 1); let callbacks = this._callbacks['$' + event]
+  if (callbacks) {
+    callbacks = callbacks.slice(0)
+    for (let i = 0, len = callbacks.length; i < len; ++i) {
+      callbacks[i].apply(this, args)
     }
-    return this;
-};
+  }
+  return this
+}
 /**
  * 添加方法让事件拥有返回值, 注意:绑定的方法 有且只能有一个
  *
@@ -131,16 +129,16 @@ Emitter.prototype.emit = function (event) {
  * @editor : 甄鑫
  */
 Emitter.prototype.emitSync = function (event) {
-    this._callbacks = this._callbacks || {};
-    var args = [].slice.call(arguments, 1), callbacks = this._callbacks['$' + event];
-    if (callbacks) {
-        callbacks = callbacks.slice(0);
-        for (var i = 0, len = callbacks.length; i < len; ++i) {
-            return callbacks[i].apply(this, args);
-        }
+  this._callbacks = this._callbacks || {}
+  const args = [].slice.call(arguments, 1); let callbacks = this._callbacks['$' + event]
+  if (callbacks) {
+    callbacks = callbacks.slice(0)
+    for (let i = 0, len = callbacks.length; i < len; ++i) {
+      return callbacks[i].apply(this, args)
     }
-    return this;
-};
+  }
+  return this
+}
 /**
  * Return array of callbacks for `event`.
  *
@@ -149,9 +147,9 @@ Emitter.prototype.emitSync = function (event) {
  * @api public
  */
 Emitter.prototype.listeners = function (event) {
-    this._callbacks = this._callbacks || {};
-    return this._callbacks['$' + event] || [];
-};
+  this._callbacks = this._callbacks || {}
+  return this._callbacks['$' + event] || []
+}
 /**
  * Check if this emitter has `event` handlers.
  *
@@ -160,5 +158,5 @@ Emitter.prototype.listeners = function (event) {
  * @api public
  */
 Emitter.prototype.hasListeners = function (event) {
-    return !!this.listeners(event).length;
-};
+  return !!this.listeners(event).length
+}

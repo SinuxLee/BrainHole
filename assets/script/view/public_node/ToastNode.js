@@ -1,50 +1,50 @@
 cc.Class({
-    extends: cc.Component,
+  extends: cc.Component,
 
-    properties: {
-        contentLabel:cc.Label,
-    },
+  properties: {
+    contentLabel: cc.Label
+  },
 
-    onLoad(){
-        
-    },
-    /**
+  onLoad () {
+
+  },
+  /**
      * {content:"",type:0}
     */
-    initData(data){
-        this.contentLabel.string = data.content;
-        switch(data.type){
-            case 0:{
-                this.runMoveAction();
-            }break;
-            case 1:{
-                this.runOpacityAction();
-            }break;
-        }
-    },
+  initData (data) {
+    this.contentLabel.string = data.content
+    switch (data.type) {
+      case 0:{
+        this.runMoveAction()
+      } break
+      case 1:{
+        this.runOpacityAction()
+      } break
+    }
+  },
 
-    runMoveAction(){
-        var move = cc.moveTo(1, cc.v2(0, 200));
-        var fade = cc.fadeTo(0.6, 0);
-        var func = cc.callFunc(function(){
-            this.runEndAction();
-        },this);
-        this.node.runAction(cc.sequence(move,fade,func));
-    },
+  runMoveAction () {
+    const move = cc.moveTo(1, cc.v2(0, 200))
+    const fade = cc.fadeTo(0.6, 0)
+    const func = cc.callFunc(function () {
+      this.runEndAction()
+    }, this)
+    this.node.runAction(cc.sequence(move, fade, func))
+  },
 
-    runOpacityAction(){
-        var fade = cc.fadeTo(0.6, 0);
-        var func = cc.callFunc(function(){
-            this.runEndAction();
-        },this);
-        this.node.runAction(cc.sequence(fade,func));
-    },
+  runOpacityAction () {
+    const fade = cc.fadeTo(0.6, 0)
+    const func = cc.callFunc(function () {
+      this.runEndAction()
+    }, this)
+    this.node.runAction(cc.sequence(fade, func))
+  },
 
-    runEndAction(){
-        this.node.destroy();
-    },
+  runEndAction () {
+    this.node.destroy()
+  },
 
-    onDestroy(){
-        
-    },
-});
+  onDestroy () {
+
+  }
+})

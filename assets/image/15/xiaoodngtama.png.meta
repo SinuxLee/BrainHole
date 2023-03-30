@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "79cafc6e-2f1f-41da-a0f5-cf83d3277644",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 177,
+  "height": 49,
+  "platformSettings": {},
   "subMetas": {
     "xiaoodngtama": {
       "ver": "1.0.4",

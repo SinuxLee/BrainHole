@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "d78065bf-9daa-4535-a838-22714f26e35e",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 193,
+  "height": 43,
+  "platformSettings": {},
   "subMetas": {
     "Aquyanseshen": {
       "ver": "1.0.4",

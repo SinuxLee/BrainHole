@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "5aced420-d9d3-46a5-85d2-8335b4b9c237",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 103,
+  "height": 29,
+  "platformSettings": {},
   "subMetas": {
     "daily-task": {
       "ver": "1.0.4",

@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "9e4fec74-37eb-4d18-934c-5a893d10b1c9",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 45,
+  "height": 28,
+  "platformSettings": {},
   "subMetas": {
     "daily-two-chance": {
       "ver": "1.0.4",

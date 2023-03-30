@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "518ac69c-313a-4237-a537-8b48bfa12aa7",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 145,
+  "height": 151,
+  "platformSettings": {},
   "subMetas": {
     "cloak": {
       "ver": "1.0.4",

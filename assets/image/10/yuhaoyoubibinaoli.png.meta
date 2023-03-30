@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "cbd0a469-714c-4bf8-b341-d0843b62775d",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 277,
+  "height": 42,
+  "platformSettings": {},
   "subMetas": {
     "yuhaoyoubibinaoli": {
       "ver": "1.0.4",

@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "91ee5380-8e25-426d-9ccf-a456f6cb5447",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 242,
+  "height": 95,
+  "platformSettings": {},
   "subMetas": {
     "watch-short-video": {
       "ver": "1.0.4",

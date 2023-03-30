@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "082496d5-fe54-4ff3-bcb1-eb2d39e1f364",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 133,
+  "height": 48,
+  "platformSettings": {},
   "subMetas": {
     "qitaren": {
       "ver": "1.0.4",

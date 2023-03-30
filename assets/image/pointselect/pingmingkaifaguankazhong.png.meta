@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "b8ad987a-b4b1-4622-86f1-3aab725f7cc4",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 332,
+  "height": 50,
+  "platformSettings": {},
   "subMetas": {
     "pingmingkaifaguankazhong": {
       "ver": "1.0.4",

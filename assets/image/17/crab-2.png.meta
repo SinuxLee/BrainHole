@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "a7f887c4-4a53-4f10-b107-9eb4251434e6",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 209,
+  "height": 184,
+  "platformSettings": {},
   "subMetas": {
     "crab-2": {
       "ver": "1.0.4",

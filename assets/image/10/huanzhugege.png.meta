@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "ec93474a-34dd-437f-a829-61497422cb73",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 176,
+  "height": 47,
+  "platformSettings": {},
   "subMetas": {
     "huanzhugege": {
       "ver": "1.0.4",

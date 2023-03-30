@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "434edc06-505a-4476-8036-74a952f76753",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 87,
+  "height": 48,
+  "platformSettings": {},
   "subMetas": {
     "nangua": {
       "ver": "1.0.4",

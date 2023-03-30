@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "c4f5f506-768b-4eef-be4c-d96d441c0da0",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 253,
+  "height": 134,
+  "platformSettings": {},
   "subMetas": {
     "blackboard": {
       "ver": "1.0.4",

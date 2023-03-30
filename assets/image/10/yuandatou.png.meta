@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "61e2aec8-409f-4573-9707-9389d41b1654",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 130,
+  "height": 48,
+  "platformSettings": {},
   "subMetas": {
     "yuandatou": {
       "ver": "1.0.4",

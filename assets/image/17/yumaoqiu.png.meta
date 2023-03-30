@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "5b9197c9-afba-4ce3-9ba1-c54c04f5f74a",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 133,
+  "height": 50,
+  "platformSettings": {},
   "subMetas": {
     "yumaoqiu": {
       "ver": "1.0.4",

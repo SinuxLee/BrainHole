@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "59643718-3624-42cf-959b-9ad52cc54072",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 176,
+  "height": 45,
+  "platformSettings": {},
   "subMetas": {
     "sanguoyanyi": {
       "ver": "1.0.4",

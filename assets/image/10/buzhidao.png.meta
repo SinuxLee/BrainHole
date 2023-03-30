@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "2ba767dc-e401-42da-b4f6-a4b802121a90",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 131,
+  "height": 48,
+  "platformSettings": {},
   "subMetas": {
     "buzhidao": {
       "ver": "1.0.4",

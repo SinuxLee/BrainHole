@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "962b6efc-c4fe-4775-b117-5a9f7aeb895b",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 88,
+  "height": 46,
+  "platformSettings": {},
   "subMetas": {
     "huangxie": {
       "ver": "1.0.4",

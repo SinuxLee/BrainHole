@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "bf900120-de50-4323-aac5-402ba950164c",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 336,
+  "height": 251,
+  "platformSettings": {},
   "subMetas": {
     "pikachu": {
       "ver": "1.0.4",

@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "ed0ef0b0-8465-4b55-82b4-7f5c8eba5461",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 86,
+  "height": 47,
+  "platformSettings": {},
   "subMetas": {
     "guizhou": {
       "ver": "1.0.4",

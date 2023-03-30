@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "aa1f8839-89dd-4222-8827-64ebe6331e6d",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 699,
+  "height": 556,
+  "platformSettings": {},
   "subMetas": {
     "mom-wife-1": {
       "ver": "1.0.4",

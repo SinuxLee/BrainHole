@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "27d18c7d-b3bb-4803-9441-d03021526175",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 90,
+  "height": 49,
+  "platformSettings": {},
   "subMetas": {
     "jianpan": {
       "ver": "1.0.4",

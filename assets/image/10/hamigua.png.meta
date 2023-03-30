@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "7463968e-142e-4ba9-928c-6734dc37e25a",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 134,
+  "height": 48,
+  "platformSettings": {},
   "subMetas": {
     "hamigua": {
       "ver": "1.0.4",

@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "3a79b519-e0f4-447e-87a6-bbae2eb68b81",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 131,
+  "height": 48,
+  "platformSettings": {},
   "subMetas": {
     "xiyouji": {
       "ver": "1.0.4",

@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "87822476-9728-41ee-8123-2490018f508e",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 223,
+  "height": 60,
+  "platformSettings": {},
   "subMetas": {
     "kuangdiandakai-button": {
       "ver": "1.0.4",

@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "fee39467-465d-41a3-9075-5e5939888842",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 103,
+  "height": 144,
+  "platformSettings": {},
   "subMetas": {
     "ice-cream": {
       "ver": "1.0.4",

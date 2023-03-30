@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "c51d640a-e980-49d1-817b-96a2301bd594",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 104,
+  "height": 43,
+  "platformSettings": {},
   "subMetas": {
     "youfang-2": {
       "ver": "1.0.4",

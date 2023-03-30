@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "ebd363c6-71c9-463b-88dd-274930f7e50a",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 198,
+  "height": 36,
+  "platformSettings": {},
   "subMetas": {
     "ABquchabuduoba": {
       "ver": "1.0.4",

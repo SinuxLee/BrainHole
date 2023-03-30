@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "3fe07040-497c-4124-a11d-ebcf8254318d",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 106,
+  "height": 165,
+  "platformSettings": {},
   "subMetas": {
     "candle": {
       "ver": "1.0.4",

@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "c1ab3c33-b73f-42e6-aa92-d51d2cc33d5c",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 83,
+  "height": 47,
+  "platformSettings": {},
   "subMetas": {
     "zhouwu": {
       "ver": "1.0.4",

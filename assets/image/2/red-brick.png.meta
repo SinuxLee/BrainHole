@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "7052ed85-b7e0-4305-a36b-cbfbcadec102",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 120,
+  "height": 390,
+  "platformSettings": {},
   "subMetas": {
     "red-brick": {
       "ver": "1.0.4",

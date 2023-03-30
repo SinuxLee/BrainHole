@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "c5d8ffbf-2906-4e81-8dfb-4b6ecebcb0cc",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 516,
+  "height": 300,
+  "platformSettings": {},
   "subMetas": {
     "bike": {
       "ver": "1.0.4",

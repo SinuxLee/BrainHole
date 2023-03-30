@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "59c91073-eae6-40d5-97c2-707438a81464",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 89,
+  "height": 47,
+  "platformSettings": {},
   "subMetas": {
     "qianlong": {
       "ver": "1.0.4",

@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "9a56be9c-b4a5-4a16-b364-45ec9f5aac08",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 161,
+  "height": 64,
+  "platformSettings": {},
   "subMetas": {
     "remote-control": {
       "ver": "1.0.4",

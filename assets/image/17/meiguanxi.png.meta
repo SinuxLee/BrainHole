@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "ddf8cb5f-577a-4a8e-8fec-eefdca630a74",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 136,
+  "height": 47,
+  "platformSettings": {},
   "subMetas": {
     "meiguanxi": {
       "ver": "1.0.4",

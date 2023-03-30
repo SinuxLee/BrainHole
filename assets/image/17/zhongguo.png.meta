@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "b212b261-9d57-4884-a107-5e0182bf6a5a",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 88,
+  "height": 45,
+  "platformSettings": {},
   "subMetas": {
     "zhongguo": {
       "ver": "1.0.4",

@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "6108749b-7894-46cd-9bd3-fd51dca06f50",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 129,
+  "height": 48,
+  "platformSettings": {},
   "subMetas": {
     "baiyunshan": {
       "ver": "1.0.4",

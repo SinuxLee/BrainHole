@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "a096e394-a8b2-4912-b1a4-226a65551f5d",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 88,
+  "height": 48,
+  "platformSettings": {},
   "subMetas": {
     "yingsi": {
       "ver": "1.0.4",

@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "6ae97e54-3350-45cb-a2c3-d47f23ca1153",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 125,
+  "height": 168,
+  "platformSettings": {},
   "subMetas": {
     "card-7": {
       "ver": "1.0.4",

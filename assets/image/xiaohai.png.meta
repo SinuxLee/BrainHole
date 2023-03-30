@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "345f7cf0-9c6e-4593-ba94-efb51c86ae11",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 187,
+  "height": 201,
+  "platformSettings": {},
   "subMetas": {
     "xiaohai": {
       "ver": "1.0.4",

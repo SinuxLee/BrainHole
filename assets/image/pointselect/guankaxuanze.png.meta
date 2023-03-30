@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "76d093f6-62fd-462f-8841-ffe4ba085a50",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 242,
+  "height": 63,
+  "platformSettings": {},
   "subMetas": {
     "guankaxuanze": {
       "ver": "1.0.4",

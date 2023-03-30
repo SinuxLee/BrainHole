@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "2904d0b7-6855-4a91-aba4-587fe3cf2879",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 250,
+  "height": 55,
+  "platformSettings": {},
   "subMetas": {
     "sincos_answer3": {
       "ver": "1.0.4",

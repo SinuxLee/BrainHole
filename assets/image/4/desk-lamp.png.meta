@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "eb295930-2aee-4b1f-8c0e-c5bf33233b0c",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 287,
+  "height": 432,
+  "platformSettings": {},
   "subMetas": {
     "desk-lamp": {
       "ver": "1.0.4",

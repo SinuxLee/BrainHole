@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "c1df1048-0154-4445-86ed-217091ebf11f",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 294,
+  "height": 349,
+  "platformSettings": {},
   "subMetas": {
     "light": {
       "ver": "1.0.4",

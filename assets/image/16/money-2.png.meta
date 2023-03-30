@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "ac45a09b-acd0-413d-89d6-85016679817f",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 134,
+  "height": 86,
+  "platformSettings": {},
   "subMetas": {
     "money-2": {
       "ver": "1.0.4",

@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "0aa8ef0d-6a9d-4fd1-843a-6fcd2b17f40f",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 191,
+  "height": 43,
+  "platformSettings": {},
   "subMetas": {
     "Bquyanseshen": {
       "ver": "1.0.4",

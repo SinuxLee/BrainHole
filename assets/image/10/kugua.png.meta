@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "156fe6dd-6ccd-4f56-9edb-a3d2cf07fc7d",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 88,
+  "height": 45,
+  "platformSettings": {},
   "subMetas": {
     "kugua": {
       "ver": "1.0.4",

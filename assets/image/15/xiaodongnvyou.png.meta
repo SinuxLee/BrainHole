@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "bfcfe95f-c8dd-47b4-9c94-bf10e6d6e640",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 178,
+  "height": 49,
+  "platformSettings": {},
   "subMetas": {
     "xiaodongnvyou": {
       "ver": "1.0.4",

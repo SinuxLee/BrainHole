@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "9d46873c-f322-4e8d-a917-43a9d7b82591",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 461,
+  "height": 348,
+  "platformSettings": {},
   "subMetas": {
     "question": {
       "ver": "1.0.4",

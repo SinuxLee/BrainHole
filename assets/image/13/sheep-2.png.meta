@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "db073bd6-f652-490b-919a-b9947115c0fc",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 143,
+  "height": 187,
+  "platformSettings": {},
   "subMetas": {
     "sheep-2": {
       "ver": "1.0.4",

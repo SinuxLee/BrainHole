@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "bbbad1c4-13ca-45bc-9ffe-22645aa5aed8",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 510,
+  "height": 94,
+  "platformSettings": {},
   "subMetas": {
     "I-love-you": {
       "ver": "1.0.4",

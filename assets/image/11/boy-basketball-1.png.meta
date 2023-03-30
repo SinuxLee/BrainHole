@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "0299b472-dd8a-4f41-b516-a643fab0eeb4",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 135,
+  "height": 300,
+  "platformSettings": {},
   "subMetas": {
     "boy-basketball-1": {
       "ver": "1.0.4",

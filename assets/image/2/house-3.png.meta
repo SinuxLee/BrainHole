@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "4a5392c5-ef9a-45c4-8ef5-5be5da1b492f",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 179,
+  "height": 199,
+  "platformSettings": {},
   "subMetas": {
     "house-3": {
       "ver": "1.0.4",

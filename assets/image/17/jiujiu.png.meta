@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "c3eeb9d2-e9ea-41da-81a3-b96c98eec4c6",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 85,
+  "height": 46,
+  "platformSettings": {},
   "subMetas": {
     "jiujiu": {
       "ver": "1.0.4",

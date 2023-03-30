@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "08aec3e1-fdfd-4fa2-901d-33488d781376",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 87,
+  "height": 48,
+  "platformSettings": {},
   "subMetas": {
     "xiongmao": {
       "ver": "1.0.4",

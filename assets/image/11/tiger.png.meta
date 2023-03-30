@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "b247d7b1-629e-4823-ab8f-8839df5718a1",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 262,
+  "height": 224,
+  "platformSettings": {},
   "subMetas": {
     "tiger": {
       "ver": "1.0.4",

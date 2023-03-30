@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "d52abbcb-1563-4c90-836c-c6c659906693",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 247,
+  "height": 196,
+  "platformSettings": {},
   "subMetas": {
     "notebook": {
       "ver": "1.0.4",

@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "80d57cf8-630e-4345-8263-52addad44a76",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 401,
+  "height": 228,
+  "platformSettings": {},
   "subMetas": {
     "sofa": {
       "ver": "1.0.4",

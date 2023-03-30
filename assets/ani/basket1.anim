@@ -9,16 +9,6 @@
   "wrapMode": 1,
   "curveData": {
     "props": {
-      "rotation": [
-        {
-          "frame": 0,
-          "value": 0
-        },
-        {
-          "frame": 0.08333333333333333,
-          "value": -90
-        }
-      ],
       "position": [
         {
           "frame": 0,
@@ -33,6 +23,16 @@
             195,
             -90
           ]
+        }
+      ],
+      "angle": [
+        {
+          "frame": 0,
+          "value": 0
+        },
+        {
+          "frame": 0.08333333333333333,
+          "value": 90
         }
       ]
     }

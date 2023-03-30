@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "21dffd6e-6596-4566-a8b3-b4830216dbb8",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 134,
+  "height": 47,
+  "platformSettings": {},
   "subMetas": {
     "zhenhuanzhuan": {
       "ver": "1.0.4",

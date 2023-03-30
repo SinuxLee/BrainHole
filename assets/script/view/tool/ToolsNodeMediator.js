@@ -1,29 +1,27 @@
-var BaseMediator = require("BaseMediator")
+const BaseMediator = require('BaseMediator')
 cc.Class({
-    extends:BaseMediator,
-    properties: {
-        _data:null,
-    },
+  extends: BaseMediator,
+  properties: {
+    _data: null
+  },
 
-    didRegister(){
-        
+  didRegister () {
 
-        
-    },
+  },
 
-    listNotificationInterests(){
-        return [
-         
-        ];
-    },
+  listNotificationInterests () {
+    return [
 
-    handleNotification(notification){
-        cc.log(notification);
-        var data = notification.getBody();
-        var view = this.viewComponent;
-        var name = notification.getName();
-        switch(name){
-          
-        }
-    },
-});
+    ]
+  },
+
+  handleNotification (notification) {
+    cc.log(notification)
+    const data = notification.getBody()
+    const view = this.viewComponent
+    const name = notification.getName()
+    switch (name) {
+
+    }
+  }
+})

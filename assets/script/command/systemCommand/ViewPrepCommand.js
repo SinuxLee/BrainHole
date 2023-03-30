@@ -1,11 +1,11 @@
 cc.Class({
-    extends: puremvc.SimpleCommand,
+  extends: puremvc.SimpleCommand,
 
-    properties: {
-        
-    },
+  properties: {
 
-    execute(notification){
+  },
 
-    }
-});
+  execute (notification) {
+
+  }
+})

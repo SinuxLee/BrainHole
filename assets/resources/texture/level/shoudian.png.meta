@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "9a7b49fb-a650-4e44-9cb1-664953614198",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 109,
+  "height": 204,
+  "platformSettings": {},
   "subMetas": {
     "shoudian": {
       "ver": "1.0.4",

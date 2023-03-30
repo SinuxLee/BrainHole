@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "adc538a7-af56-4f6a-a5c8-9514853cdde8",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 86,
+  "height": 50,
+  "platformSettings": {},
   "subMetas": {
     "xiniu": {
       "ver": "1.0.4",

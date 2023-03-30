@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "c61ca890-9080-4b50-b595-6fac04bbf2f8",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 161,
+  "height": 52,
+  "platformSettings": {},
   "subMetas": {
     "huodejiangli": {
       "ver": "1.0.4",

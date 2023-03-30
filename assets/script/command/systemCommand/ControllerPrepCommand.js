@@ -1,13 +1,13 @@
-var UserCommand = require("UserCommand");
+const UserCommand = require('UserCommand')
 
 cc.Class({
-    extends: puremvc.SimpleCommand,
+  extends: puremvc.SimpleCommand,
 
-    properties: {
-        
-    },
+  properties: {
 
-    execute(notification){
-        UserCommand.register();
-    }
-});
+  },
+
+  execute (notification) {
+    UserCommand.register()
+  }
+})

@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "a6a29b5e-8bf6-4365-95c5-1e652c2df23a",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 473,
+  "height": 369,
+  "platformSettings": {},
   "subMetas": {
     "trampoline": {
       "ver": "1.0.4",

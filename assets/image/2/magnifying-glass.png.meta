@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "9404d6aa-1944-4106-9fc5-6dbea9472a60",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 177,
+  "height": 282,
+  "platformSettings": {},
   "subMetas": {
     "magnifying-glass": {
       "ver": "1.0.4",

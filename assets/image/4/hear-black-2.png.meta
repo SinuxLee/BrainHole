@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "6dfe7688-65c9-4114-a67a-4a2eb9e58af2",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 225,
+  "height": 217,
+  "platformSettings": {},
   "subMetas": {
     "hear-black-2": {
       "ver": "1.0.4",

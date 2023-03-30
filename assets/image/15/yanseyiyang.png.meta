@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "e98831db-4490-4b21-ac27-a9b942c66886",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 179,
+  "height": 49,
+  "platformSettings": {},
   "subMetas": {
     "yanseyiyang": {
       "ver": "1.0.4",

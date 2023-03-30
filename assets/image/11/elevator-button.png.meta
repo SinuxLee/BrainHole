@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "e842e360-e4a1-414d-918c-3f3a8e69228a",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 76,
+  "height": 150,
+  "platformSettings": {},
   "subMetas": {
     "elevator-button": {
       "ver": "1.0.4",

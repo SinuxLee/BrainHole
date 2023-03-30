@@ -1,10 +1,15 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.4",
   "uuid": "1924dcf8-2a8a-42a7-83d3-1e0b0867c90c",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 133,
+  "height": 49,
+  "platformSettings": {},
   "subMetas": {
     "luozifeng": {
       "ver": "1.0.4",
