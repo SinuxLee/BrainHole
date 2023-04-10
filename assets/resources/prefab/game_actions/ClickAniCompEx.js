@@ -1,69 +1,62 @@
-
 cc.Class({
-    extends: cc.Component,
+  extends: cc.Component,
 
-    properties: {
-        item: cc.Node,
-            
-        aniNames: {
-            type: cc.String,
-            default: [],
-        },
+  properties: {
+    item: cc.Node,
 
-        cankaoItem:cc.Node,
+    aniNames: {
+      type: cc.String,
+      default: []
     },
 
-    // LIFE-CYCLE CALLBACKS:
+    cankaoItem: cc.Node
+  },
 
-    // onLoad () {},
+  start () {
+    this.item.on(cc.Node.EventType.TOUCH_END, this.onClick.bind(this))
+    this.item.index = 0 // 对应动画索引
 
-    start() {
-        
-        this.item.on(cc.Node.EventType.TOUCH_END, this.onClick.bind(this));
-        this.item.index = 0;   //对应动画索引
-       
+    this.item.on(cc.Node.EventType.TOUCH_MOVE, this.onMove.bind(this))
+  },
 
-        this.item.on(cc.Node.EventType.TOUCH_MOVE, this.onMove.bind(this));
-    },
+  onMove: function (event) {
+    const delta = event.touch.getDelta()
+    event.target.x += delta.x
+    event.target.y += delta.y
+  },
 
-    onMove: function (event) {
-        var delta = event.touch.getDelta();
-        event.target.x += delta.x;
-        event.target.y += delta.y;
-    },
+  onClick: function (e) {
+    if (this.playing) {
+      return
+    }
 
-    onClick: function (e) {
-        if (this.playing) {
-            return;
-        }
-        
-        if(e.target.x > this.cankaoItem.x - this.cankaoItem.width/2 && e.target.x < this.cankaoItem.x + this.cankaoItem.width/2 && e.target.y > this.cankaoItem.y - this.cankaoItem.height/2 && e.target.y < this.cankaoItem.y + this.cankaoItem.height/2){
-            this.onRight();
-        }else{
-            this.playing = true;
-            var ani = this.node.getComponent("cc.Animation");
-            ani.stop();
+    if (e.target.x > this.cankaoItem.x - this.cankaoItem.width / 2 && e.target.x < this.cankaoItem.x + this.cankaoItem.width / 2 && e.target.y > this.cankaoItem.y - this.cankaoItem.height / 2 && e.target.y < this.cankaoItem.y + this.cankaoItem.height / 2) {
+      this.onRight()
+    } else {
+      this.playing = true
+      const ani = this.node.getComponent('cc.Animation')
+      ani.stop()
 
-            ani.play(this.aniNames[e.target.index]);
-            ani.on("finished", () => {
-                this.playing = false;
-                this.onFault();
-            });
-        }
-    },
+      ani.play(this.aniNames[e.target.index])
+      ani.on('finished', () => {
+        this.playing = false
+        this.onFault()
+      })
+    }
+  },
 
-    onRight: function () {
-        cc.nd.tips.showRight(this.node);
-        setTimeout(() => {
-            puremvc.Facade.sendNotification(appNotice.SHOW_POP, { name: "ResultNode", initData: { pointNum: this.node.name.replace("level_", "") } });
-        }, 1500);
-    },
+  onRight: function () {
+    cc.nd.tips.showRight(this.node)
+    setTimeout(() => {
+      puremvc.Facade.sendNotification(appNotice.SHOW_POP, { name: 'ResultNode', initData: { pointNum: this.node.name.replace('level_', '') } })
+    }, 1500)
+  },
 
-    onFault: function (e) {
-        cc.nd.tips.showFault(this.node);
-        setTimeout(()=>{
-            puremvc.Facade.sendNotification(appNotice.RE_PLAY);
-        }, 1000);
-    },
-    
-});
+  onFault: function (e) {
+    cc.nd.tips.showFault(this.node)
+    setTimeout(() => {
+      puremvc.Facade.sendNotification(appNotice.RE_PLAY)
+    }, 1000)
+  }
+
+})

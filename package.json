@@ -1,0 +1,25 @@
+{
+  "name": "brain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "fix": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/kuokuo66/free-cocos-creator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "^17.0.0"
+  },
+  "standard": {
+    "ignore": [
+      "local/**/*.js",
+      "tmp/**/*.js"
+    ]
+  }
+}

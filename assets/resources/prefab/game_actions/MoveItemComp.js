@@ -1,39 +1,37 @@
 // 移动物品
 cc.Class({
-    extends: cc.Component,
+  extends: cc.Component,
 
-    properties: {
-        moveItems: {
-            type: cc.Node,
-            default: [],
-        }
-    },
+  properties: {
+    moveItems: {
+      type: cc.Node,
+      default: []
+    }
+  },
 
-    // LIFE-CYCLE CALLBACKS:
+  onLoad () {
+    for (let i = 0; i < this.moveItems.length; i++) {
+      this.moveItems[i].on(cc.Node.EventType.TOUCH_START, this.onMoveStart.bind(this))
+      this.moveItems[i].on(cc.Node.EventType.TOUCH_MOVE, this.onMove.bind(this))
+    }
+  },
 
-    onLoad() {
-        for (var i = 0; i < this.moveItems.length; i++) {
-            this.moveItems[i].on(cc.Node.EventType.TOUCH_START, this.onMoveStart.bind(this));
-            this.moveItems[i].on(cc.Node.EventType.TOUCH_MOVE, this.onMove.bind(this));
-        }
-    },
+  start () {
+    if (cc.nd && cc.nd.tips) {
+      cc.nd.tips.hideNode()
+    }
+  },
 
-    start() {
-        if(cc.nd && cc.nd.tips) {
-            cc.nd.tips.hideNode();
-        }
-    },
+  onMoveStart: function (event) {
+    event.target.moveStartX = event.target.x
+    event.target.moveStartY = event.target.y
+  },
 
-    onMoveStart: function (event) {
-        event.target.moveStartX = event.target.x;
-        event.target.moveStartY = event.target.y;
-    },
-
-    onMove: function (event) {
-        var startPos = event.getStartLocation();
-        var newPos = event.getLocation();
-        // newPos = event.target.parent.convertToNodeSpaceAR(newPos);
-        event.target.x = event.target.moveStartX + newPos.x - startPos.x;
-        event.target.y = event.target.moveStartY + newPos.y - startPos.y;
-    },
-});
+  onMove: function (event) {
+    const startPos = event.getStartLocation()
+    const newPos = event.getLocation()
+    // newPos = event.target.parent.convertToNodeSpaceAR(newPos);
+    event.target.x = event.target.moveStartX + newPos.x - startPos.x
+    event.target.y = event.target.moveStartY + newPos.y - startPos.y
+  }
+})
