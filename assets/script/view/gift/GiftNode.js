@@ -1,6 +1,5 @@
 const BaseCmpt = require('BaseCmpt')
 const GiftNodeMediator = require('GiftNodeMediator')
-const leveltips_config = require('leveltips_config')
 
 cc.Class({
   extends: BaseCmpt,
@@ -16,11 +15,8 @@ cc.Class({
     this._super()
 
     const kdopenBtn = this.node.getChildByName('kdopenBtn')
-
     kdopenBtn.on(cc.Node.EventType.TOUCH_START, this.onTouchStart.bind(this))
-
     kdopenBtn.on(cc.Node.EventType.TOUCH_END, this.onTouchEnd.bind(this))
-
     kdopenBtn.on(cc.Node.EventType.TOUCH_CANCEL, this.onTouchCancel.bind(this))
 
     this.lefttimeLabel = this.node.getChildByName('lefttime').getComponent('cc.Label')
@@ -107,9 +103,10 @@ cc.Class({
       this.isEnd = true
       this.stopGiftInterval()
       this.stopBtnInterval()
-      // this.hidePop("GiftNode");
       setTimeout(() => {
-        puremvc.Facade.sendNotification(appNotice.SHOW_POP, { name: 'ReceiveNode', initData: this.progressBarView.progress || 0 })
+        puremvc.Facade.sendNotification(appNotice.SHOW_POP, { 
+          name: 'ReceiveNode', initData: this.progressBarView.progress || 0 
+        })
       }, 200)
     }
   }

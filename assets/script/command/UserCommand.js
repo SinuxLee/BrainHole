@@ -2,10 +2,6 @@ const UserProxy = require('UserProxy')
 cc.Class({
   extends: puremvc.SimpleCommand,
 
-  properties: {
-
-  },
-
   statics: {
     register () {
       puremvc.Facade.registerCommand(appNotice.CMD_LOGIN, this)

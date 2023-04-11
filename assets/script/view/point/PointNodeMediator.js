@@ -2,10 +2,6 @@ const BaseMediator = require('BaseMediator')
 cc.Class({
   extends: BaseMediator,
 
-  properties: {
-
-  },
-
   didRegister () {
     this.bind('GET_ANSWER_CLICK', (pointNum) => {
       window.rewardVideo.showVideo(() => {
@@ -42,7 +38,7 @@ cc.Class({
     ]
   },
 
-  initData: function (data) {
+  initData (data) {
     this.viewComponent.initData(data)
   },
 

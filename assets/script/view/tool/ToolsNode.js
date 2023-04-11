@@ -1,11 +1,9 @@
 const BaseCmpt = require('BaseCmpt')
 const ToolsNodeMediator = require('ToolsNodeMediator')
+
 cc.Class({
   extends: BaseCmpt,
   mediatorName: ToolsNodeMediator,
-  properties: {
-
-  },
 
   start () {
     const versionNum = this.node.getChildByName('bg').getChildByName('versionNum')

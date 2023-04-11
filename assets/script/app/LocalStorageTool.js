@@ -9,6 +9,7 @@ cc.Class({
     this.init()
   },
   init () {
+    cc.log('storage init by libz')
     this.uidStorage = {}
     this.localStorage = {
       uid: 0

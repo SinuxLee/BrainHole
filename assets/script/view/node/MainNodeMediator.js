@@ -74,5 +74,4 @@ cc.Class({
         break
     }
   }
-
 })

@@ -1,37 +1,36 @@
-// var HttpManager = require("HttpManager");
-const PreloadType = cc.Enum({ // 以一组资源分类
-  Pop: -1,
-  Node: -1,
-  ChangeLayer: -1,
-  Null: -1
-})
-const PreloadTool = cc.Class({
-  properties: {
-    loadAssets: Array,
-    loadIndex: cc.Integer,
-    loadType: null,
-    actionType: null,
-    groupName: '',
-    initData: null,
-    uiVisible: false,
-    loading: false,
-    completeCallback: null
-  },
-  ctor () {
+export default class{
+  loadAssets = []
+  loadIndex = 0
+  loadType = null
+  actionType = null
+  groupName = ''
+  initData = null
+  uiVisible = false
+  loading = false
+  completeCallback = null
 
-  },
+  PreloadType = cc.Enum({ // 组资源分类
+    Pop: -1,
+    Node: -1,
+    ChangeLayer: -1,
+    Null: -1
+  })
+
   getJson (name) {
     const url = 'json/' + name
     return cc.loader.getRes(url).json
-  },
+  }
+
   getPrefab (name) {
     const url = 'prefab/' + name
     return cc.loader.getRes(url)
-  },
+  }
+
   getSpriteFrame (name) {
     const url = 'image/' + name
     return new cc.SpriteFrame(cc.loader.getRes(url))
-  },
+  }
+
   setSpriteFrame (url, sprite) {
     const type = cc.SpriteFrame
     const res = cc.loader.getRes(url, type)
@@ -46,7 +45,7 @@ const PreloadTool = cc.Class({
         }
       })
     }
-  },
+  }
 
   preload (assets, uiVisible, completeCallback) {
     if (this.loading) {
@@ -57,12 +56,13 @@ const PreloadTool = cc.Class({
     this.completeCallback = completeCallback
     this.uiVisible = uiVisible
     this.groupName = ''
-    this.loadType = PreloadType.Null
+    this.loadType = this.PreloadType.Null
     this.actionType = null
     this.loadIndex = -1
     this.loadAssets = this.changeToArrAssets(assets)
     this.loadNext()
-  },
+  }
+
   preloadGroup (data, uiVisible = true) {
     if (this.loading) {
       cc.error('载入资源中')
@@ -77,7 +77,8 @@ const PreloadTool = cc.Class({
     this.loadAssets = this.changeToArrAssets(data.assets)
     this.initData = data.initData,
     this.loadNext()
-  },
+  }
+
   changeToArrAssets (assets) {
     const newAssets = []
     const normalArr = []
@@ -105,7 +106,8 @@ const PreloadTool = cc.Class({
     }
     cc.log(newAssets)
     return newAssets
-  },
+  }
+
   loadAsset (asset) {
     const tag = asset.indexOf('_')
     const type = asset.substr(0, tag)
@@ -124,13 +126,14 @@ const PreloadTool = cc.Class({
         cc.error('no asset type' + type)
       } break
     }
-  },
+  }
+
   preloadProgress (completedCount, totalCount) {
     const obj = {}
     obj.progress = ((this.loadIndex + completedCount / totalCount) / this.loadAssets.length).toFixed(3)
-    // cc.log(this.loadIndex,this.loadAssets.length,completedCount,totalCount,obj.progress);
     puremvc.Facade.sendNotification(appNotice.PRELOAD_PROGRESS, obj)
-  },
+  }
+
   preloadComplete () {
     const obj = {}
     obj.loadType = this.loadType
@@ -138,7 +141,8 @@ const PreloadTool = cc.Class({
     obj.name = this.groupName
     obj.initData = this.initData
     puremvc.Facade.sendNotification(appNotice.PRELOAD_COMPLETE, obj)
-  },
+  }
+
   loadNext () {
     this.loadIndex++
     if (this.loadIndex < this.loadAssets.length) {
@@ -158,7 +162,8 @@ const PreloadTool = cc.Class({
         this.completeCallback = null
       }
     }
-  },
+  }
+
   loadHttp (name) {
     // HttpManager.httpRequest(name,function(err,data){
     //     if(err){
@@ -166,7 +171,8 @@ const PreloadTool = cc.Class({
     //     }
     //     this.loadNext();
     // }.bind(this));
-  },
+  }
+
   loadResDir (name) {
     cc.loader.loadResDir(name, function (err, resource, urls) {
       if (err) {
@@ -174,10 +180,10 @@ const PreloadTool = cc.Class({
       }
       this.loadNext()
     }.bind(this))
-  },
+  }
+
   loadResArr (data) {
     cc.loader.loadResArray(data, cc.Asset, (completedCount, totalCount, item) => {
-      // cc.log(completedCount,totalCount,item);
       this.preloadProgress(completedCount, totalCount)
     }, (err, resource) => {
       if (err) {
@@ -185,7 +191,8 @@ const PreloadTool = cc.Class({
       }
       this.loadNext()
     })
-  },
+  }
+
   releaseAsset (assets) {
     for (let i = 0; i < assets.length; i++) {
       const tag = assets[i].indexOf('_')
@@ -213,20 +220,17 @@ const PreloadTool = cc.Class({
         } break
       }
     }
-  },
+  }
 
   loadPrefab (name, cb) {
     const url = 'prefab/' + name
     cc.loader.loadRes(url, cc.Prefab, function (err, res) {
       cb(err, cc.instantiate(res))
     })
-  },
+  }
 
   releasePrefab (name) {
     const url = 'prefab/' + name
     cc.loader.releaseRes(url)
   }
-
-})
-PreloadTool.prototype.PreloadType = PreloadType
-module.exports = PreloadTool
+}

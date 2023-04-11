@@ -5,9 +5,6 @@ const leveltips_config = require('leveltips_config')
 cc.Class({
   extends: BaseCmpt,
   mediatorName: ResultNodeMediator,
-  properties: {
-
-  },
 
   onLoad () {
     this._super()
@@ -83,7 +80,7 @@ cc.Class({
     this.light = this.node.getChildByName('light')
   },
 
-  setLevelNum: function (num) {
+  setLevelNum (num) {
     this.levelnumLabel.string = num
 
     if (leveltips_config[num]) {
@@ -106,7 +103,7 @@ cc.Class({
   /**
      * data:{pointNum:3}
     */
-  initData: function (data) {
+  initData (data) {
     if (data) {
       this.light.getComponent('cc.Animation').play('light')
 

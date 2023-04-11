@@ -4,9 +4,6 @@ const SignNodeMediator = require('SignNodeMediator')
 cc.Class({
   extends: BaseCmpt,
   mediatorName: SignNodeMediator,
-  properties: {
-
-  },
 
   onLoad () {
     this._super()
@@ -59,6 +56,7 @@ cc.Class({
       })
     }, this)
     this.qd_gotbtn = tasknode.getChildByName('taskitem1').getChildByName('gotbtn')
+    
     // 2.通关
     this.tg_tagLabel = tasknode.getChildByName('taskitem2').getChildByName('label').getComponent('cc.Label')
     this.tg_getbtn = tasknode.getChildByName('taskitem2').getChildByName('getbtn')
@@ -82,6 +80,7 @@ cc.Class({
     }, this)
     this.tg_gotbtn = tasknode.getChildByName('taskitem2').getChildByName('gotbtn')
     this.tglabel = tasknode.getChildByName('taskitem2').getChildByName('tglabel').getComponent('cc.Label')
+    
     // 3.vedio
     this.vedio_getbtn = tasknode.getChildByName('taskitem3').getChildByName('getbtn')
     this.vedio_getbtn.on('click', () => {
@@ -122,6 +121,7 @@ cc.Class({
       this.currentDay = 0
       signDayNum[1] = 0
     }
+
     for (let i = 0; i < this.daysnode.children.length; ++i) {
       if (i < this.currentDay) {
         this.daysnode.children[i].getChildByName('ok').active = true
@@ -187,6 +187,7 @@ cc.Class({
     } else {
       this.targetnumLabel.string = this.currentVedioNum + '/5'
     }
+    
     this.vedio_getbtn.active = true
     this.vedio_gotbtn.active = false
     this.targetnumLabel.node.active = true

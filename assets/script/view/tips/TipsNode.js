@@ -5,9 +5,6 @@ const leveltips_config = require('leveltips_config')
 cc.Class({
   extends: BaseCmpt,
   mediatorName: TipsNodeMediator,
-  properties: {
-
-  },
 
   onLoad () {
     this._super()

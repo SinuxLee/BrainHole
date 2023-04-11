@@ -18,6 +18,7 @@ cc.Class({
     progressLabel: cc.Label
 
   },
+  
   // 如果在ctor new mediator,可能造成mediator初始化node的数据出问题
   onLoad () {
     window.rewardVideo = new RewardVideo()

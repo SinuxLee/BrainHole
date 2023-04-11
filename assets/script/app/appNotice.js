@@ -32,6 +32,5 @@ window.appNotice = {
 
   // 钥匙变化事件
   KEY_CHANGE_EVENT: 'KEY_CHANGE_EVENT',
-
   KEY_REFRESH_EVENT: 'KEY_REFRESH_EVENT'
 }

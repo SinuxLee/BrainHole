@@ -5,9 +5,6 @@ cc.Class({
     contentLabel: cc.Label
   },
 
-  onLoad () {
-
-  },
   /**
      * {content:"",type:0}
     */

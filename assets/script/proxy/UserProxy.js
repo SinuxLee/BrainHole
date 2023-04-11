@@ -3,9 +3,6 @@ const BaseProxy = require('BaseProxy')
 cc.Class({
   extends: BaseProxy,
 
-  properties: {
-
-  },
   statics: {
     NAME: 'USERPROXY'
   },

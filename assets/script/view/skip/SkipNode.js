@@ -4,9 +4,6 @@ const SkipNodeMediator = require('SkipNodeMediator')
 cc.Class({
   extends: BaseCmpt,
   mediatorName: SkipNodeMediator,
-  properties: {
-
-  },
 
   onLoad () {
     this._super()

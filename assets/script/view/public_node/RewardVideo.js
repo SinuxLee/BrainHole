@@ -1,9 +1,6 @@
 cc.Class({
   extends: cc.Component,
 
-  properties: {
-  },
-
   showVideo (onSuccess, onFailed) {
     this.onSuccess = onSuccess
     this.onFailed = onFailed

@@ -4,9 +4,6 @@ const PointSelectMediator = require('PointSelectMediator')
 cc.Class({
   extends: BaseCmpt,
   mediatorName: PointSelectMediator,
-  properties: {
-
-  },
 
   onLoad () {
     this._super()

@@ -1,4 +1,3 @@
-
 // 设置字符串的反转
 String.prototype.reverse = function () {
   let str = ''

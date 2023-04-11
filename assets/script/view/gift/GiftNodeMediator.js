@@ -2,10 +2,6 @@ const BaseMediator = require('BaseMediator')
 cc.Class({
   extends: BaseMediator,
 
-  properties: {
-
-  },
-
   didRegister () {
 
   },

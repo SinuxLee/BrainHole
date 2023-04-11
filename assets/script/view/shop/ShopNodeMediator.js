@@ -2,10 +2,6 @@ const BaseMediator = require('BaseMediator')
 cc.Class({
   extends: BaseMediator,
 
-  properties: {
-
-  },
-
   didRegister () {
 
   },
@@ -26,7 +22,7 @@ cc.Class({
     }
   },
 
-  initData: function (data) {
+  initData (data) {
     this.viewComponent.initData(data)
   }
 })

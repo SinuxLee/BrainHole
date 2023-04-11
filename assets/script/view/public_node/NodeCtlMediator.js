@@ -1,4 +1,3 @@
-
 cc.Class({
   extends: puremvc.Mediator,
   properties: {

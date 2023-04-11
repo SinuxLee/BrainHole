@@ -6,10 +6,6 @@ cc.Class({
   // mediator名字定义
   mediatorName: MainNodeMediator,
 
-  properties: {
-
-  },
-
   onLoad () {
     this._super()
 
@@ -33,16 +29,19 @@ cc.Class({
       this.dispatchEvent('SHOP_BTN_CLICK')
       utils.playSound('sound/btnclick')
     })
+
     const taskbtn = this.node.getChildByName('taskbtn')
     taskbtn.on('click', () => {
       this.dispatchEvent('TASK_BTN_CLICK')
       utils.playSound('sound/btnclick')
     })
+
     const levelbtn = this.node.getChildByName('levelbtn')
     levelbtn.on('click', () => {
       this.dispatchEvent('LEVEL_BTN_CLICK')
       utils.playSound('sound/btnclick')
     })
+    
     const getkeybtn = this.node.getChildByName('getkeybtn')
     getkeybtn.on('click', () => {
       this.dispatchEvent('GETKEY_BTN_CLICK')

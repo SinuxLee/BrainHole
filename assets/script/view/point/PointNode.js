@@ -85,11 +85,11 @@ cc.Class({
     this.keynumLabel.string = keyNum
   },
 
-  start: function () {
+  start () {
     this.resultTips.active = false
   },
 
-  changeKeyNum: function (num) {
+  changeKeyNum (num) {
     let keyNum = Number(this.keynumLabel.string) + num
     if (keyNum < 0) {
       keyNum = 0
@@ -97,11 +97,11 @@ cc.Class({
     this.keynumLabel.string = Number(this.keynumLabel.string) + num
   },
 
-  setLevelNum: function (num) {
+  setLevelNum (num) {
     this.levelnumLabel.string = num
   },
 
-  initData: function (data) {
+  initData (data) {
     this.setLevelNum(data)
     this.panel.removeAllChildren()
     // puremvc.Facade.sendNotification(appNotice.LOADING_LOGO_SHOW);
@@ -116,12 +116,12 @@ cc.Class({
     })
   },
 
-  rePlay: function () {
+  rePlay () {
     this.panel.removeAllChildren()
     this.initData(Number(this.levelnumLabel.string))
   },
 
-  playNextLevel: function (data) {
+  playNextLevel (data) {
     this.setLevelNum(data)
     this.panel.removeAllChildren()
     // puremvc.Facade.sendNotification(appNotice.LOADING_LOGO_SHOW);

@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "fix": "standard"
+    "fix": "standard --fix"
   },
   "repository": {
     "type": "git",

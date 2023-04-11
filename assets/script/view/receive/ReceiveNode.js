@@ -5,9 +5,6 @@ const leveltips_config = require('leveltips_config')
 cc.Class({
   extends: BaseCmpt,
   mediatorName: ReceiveNodeMediator,
-  properties: {
-
-  },
 
   onLoad () {
     this._super()
@@ -51,11 +48,10 @@ cc.Class({
     }, 8000)
   },
 
-  stopTimeout: function () {
+  stopTimeout () {
     if (this.timeoutID) {
       clearTimeout(this.timeoutID)
       this.timeoutID = null
     }
   }
-
 })

@@ -2,6 +2,7 @@ const UserProxy = require('UserProxy')
 const preDepends = {
   prefab: ['ToastNode']
 }
+
 const depends = {
   MainNode: ['resDir_json'],
   GameNodeGetRes: function () {
@@ -27,6 +28,7 @@ const depends = {
     return resArr
   }
 }
+
 window.appConfig = {
   depends,
   preDepends

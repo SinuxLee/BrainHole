@@ -2,10 +2,6 @@ const BaseMediator = require('BaseMediator')
 cc.Class({
   extends: BaseMediator,
 
-  properties: {
-
-  },
-
   didRegister () {
     this.bind('TASK_BTN_CLICK', (data) => {
       this.facade.sendNotification(appNotice.HIDE_POP, { name: 'ResultNode' })
@@ -37,8 +33,8 @@ cc.Class({
 
   /**
      *data:{pointNum:3}
-    */
-  initData: function (data) {
+   */
+  initData (data) {
     if (data) {
       this.viewComponent.initData(data.pointNum)
     }
@@ -53,5 +49,4 @@ cc.Class({
 
     }
   }
-
 })

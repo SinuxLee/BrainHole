@@ -4,9 +4,6 @@ const ShopNodeMediator = require('ShopNodeMediator')
 cc.Class({
   extends: BaseCmpt,
   mediatorName: ShopNodeMediator,
-  properties: {
-
-  },
 
   onLoad () {
     this._super()
@@ -37,7 +34,7 @@ cc.Class({
   },
 
   // data:{className, pointNum}
-  initData: function (data) {
+  initData (data) {
     this.preData = data
   },
 

@@ -39,7 +39,7 @@ cc.Class({
     const x = event.target.x
     const y = event.target.y
     if (x > this.cankaoItem.x - 20 && x < this.cankaoItem.x + 20 && y > this.cankaoItem.y - 120 && y < this.cankaoItem.y) {
-      const action = cc.moveTo(0.1, cc.p(this.cankaoItem.x, this.cankaoItem.y - 100))
+      const action = cc.moveTo(0.1, cc.v2(this.cankaoItem.x, this.cankaoItem.y - 100))
       const finish = cc.callFunc(() => {
         this.onRight()
       })
